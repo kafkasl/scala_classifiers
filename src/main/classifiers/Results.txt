@@ -1,0 +1,809 @@
+Testing dataset: cmcTr.txt
+
+Clf => MaxAPosteriori with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+contraceptive-method:long-term - contraceptive-method:long-term: 28
+contraceptive-method:long-term - contraceptive-method:short-term: 48
+contraceptive-method:long-term - contraceptive-method:none: 61
+contraceptive-method:short-term - contraceptive-method:long-term: 3
+contraceptive-method:short-term - contraceptive-method:short-term: 3
+contraceptive-method:short-term - contraceptive-method:none: 1
+contraceptive-method:none - contraceptive-method:long-term: 1
+contraceptive-method:none - contraceptive-method:short-term: 1
+contraceptive-method:none - contraceptive-method:none: 1
+Accuracy: 0.21768707482993196
+Sensitivity (contraceptive-method:long-term): 0.875
+Sensitivity (contraceptive-method:short-term): 0.057692307692307696
+Sensitivity (contraceptive-method:none): 0.015873015873015872
+Mean Sensitivity: 0.3161884411884412
+Precision (contraceptive-method:long-term): 0.20437956204379562
+Precision (contraceptive-method:short-term): 0.42857142857142855
+Precision (contraceptive-method:none): 0.3333333333333333
+Mean Precision: 0.32209477464951913
+
+Precision: 0.23741496598639472
+
+Clf => NaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+contraceptive-method:long-term - contraceptive-method:long-term: 22
+contraceptive-method:long-term - contraceptive-method:none: 13
+contraceptive-method:long-term - contraceptive-method:short-term: 21
+contraceptive-method:none - contraceptive-method:long-term: 7
+contraceptive-method:none - contraceptive-method:none: 32
+contraceptive-method:none - contraceptive-method:short-term: 14
+contraceptive-method:short-term - contraceptive-method:long-term: 12
+contraceptive-method:short-term - contraceptive-method:none: 12
+contraceptive-method:short-term - contraceptive-method:short-term: 14
+Accuracy: 0.46258503401360546
+Sensitivity (contraceptive-method:long-term): 0.5365853658536586
+Sensitivity (contraceptive-method:none): 0.5614035087719298
+Sensitivity (contraceptive-method:short-term): 0.2857142857142857
+Mean Sensitivity: 0.461234386779958
+Precision (contraceptive-method:long-term): 0.39285714285714285
+Precision (contraceptive-method:none): 0.6037735849056604
+Precision (contraceptive-method:short-term): 0.3684210526315789
+Mean Precision: 0.45501726013146077
+
+Precision: 0.5088435374149659
+
+Clf => TANaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+contraceptive-method:long-term - contraceptive-method:long-term: 17
+contraceptive-method:long-term - contraceptive-method:none: 11
+contraceptive-method:long-term - contraceptive-method:short-term: 10
+contraceptive-method:none - contraceptive-method:long-term: 9
+contraceptive-method:none - contraceptive-method:none: 32
+contraceptive-method:none - contraceptive-method:short-term: 14
+contraceptive-method:short-term - contraceptive-method:long-term: 10
+contraceptive-method:short-term - contraceptive-method:none: 17
+contraceptive-method:short-term - contraceptive-method:short-term: 27
+Accuracy: 0.5170068027210885
+Sensitivity (contraceptive-method:long-term): 0.4722222222222222
+Sensitivity (contraceptive-method:none): 0.5333333333333333
+Sensitivity (contraceptive-method:short-term): 0.5294117647058824
+Mean Sensitivity: 0.5116557734204793
+Precision (contraceptive-method:long-term): 0.4473684210526316
+Precision (contraceptive-method:none): 0.5818181818181818
+Precision (contraceptive-method:short-term): 0.5
+Mean Precision: 0.5097288676236045
+
+Precision: 0.49523809523809526
+Testing dataset: germanTr.txt
+
+Clf => MaxAPosteriori with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+class:bad - class:bad: 36
+class:bad - class:good: 63
+class:good - class:bad: 0
+class:good - class:good: 0
+Accuracy: 0.36363636363636365
+Sensitivity (class:bad): 1.0
+Sensitivity (class:good): 0.0
+Mean Sensitivity: 0.5
+Precision (class:bad): 0.36363636363636365
+Precision (class:good): NaN
+Mean Precision: NaN
+
+Precision: 0.29797979797979796
+
+Clf => NaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+class:bad - class:bad: 29
+class:bad - class:good: 19
+class:good - class:bad: 6
+class:good - class:good: 45
+Accuracy: 0.7474747474747475
+Sensitivity (class:bad): 0.8285714285714286
+Sensitivity (class:good): 0.703125
+Mean Sensitivity: 0.7658482142857144
+Precision (class:bad): 0.6041666666666666
+Precision (class:good): 0.8823529411764706
+Mean Precision: 0.7432598039215685
+
+Precision: 0.7050505050505049
+
+Clf => TANaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+class:bad - class:bad: 1
+class:bad - class:good: 4
+class:good - class:bad: 31
+class:good - class:good: 63
+Accuracy: 0.6464646464646465
+Sensitivity (class:bad): 0.03125
+Sensitivity (class:good): 0.9402985074626866
+Mean Sensitivity: 0.4857742537313433
+Precision (class:bad): 0.2
+Precision (class:good): 0.6702127659574468
+Mean Precision: 0.4351063829787234
+
+Precision: 0.6484848484848483
+Testing dataset: mushroomTr.txt
+
+Clf => MaxAPosteriori with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+toxicity:edible - toxicity:edible: 410
+toxicity:edible - toxicity:poisonous: 402
+toxicity:poisonous - toxicity:edible: 0
+toxicity:poisonous - toxicity:poisonous: 0
+Accuracy: 0.5049261083743842
+Sensitivity (toxicity:edible): 1.0
+Sensitivity (toxicity:poisonous): 0.0
+Mean Sensitivity: 0.5
+Precision (toxicity:edible): 0.5049261083743842
+Precision (toxicity:poisonous): NaN
+Mean Precision: NaN
+
+Precision: 0.518103448275862
+
+Clf => NaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+toxicity:edible - toxicity:edible: 427
+toxicity:edible - toxicity:poisonous: 35
+toxicity:poisonous - toxicity:edible: 1
+toxicity:poisonous - toxicity:poisonous: 349
+Accuracy: 0.9556650246305419
+Sensitivity (toxicity:edible): 0.9976635514018691
+Sensitivity (toxicity:poisonous): 0.9088541666666666
+Mean Sensitivity: 0.9532588590342679
+Precision (toxicity:edible): 0.9242424242424242
+Precision (toxicity:poisonous): 0.9971428571428571
+Mean Precision: 0.9606926406926406
+
+Precision: 0.9545566502463053
+
+Clf => TANaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+toxicity:edible - toxicity:edible: 427
+toxicity:edible - toxicity:poisonous: 0
+toxicity:poisonous - toxicity:edible: 0
+toxicity:poisonous - toxicity:poisonous: 385
+Accuracy: 1.0
+Sensitivity (toxicity:edible): 1.0
+Sensitivity (toxicity:poisonous): 1.0
+Mean Sensitivity: 1.0
+Precision (toxicity:edible): 1.0
+Precision (toxicity:poisonous): 1.0
+Mean Precision: 1.0
+
+Precision: 0.9993842364532024
+Testing dataset: pimaTr.txt
+
+Clf => MaxAPosteriori with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Outcome:1 - Outcome:1: 23
+Outcome:1 - Outcome:0: 53
+Outcome:0 - Outcome:1: 0
+Outcome:0 - Outcome:0: 1
+Accuracy: 0.3116883116883117
+Sensitivity (Outcome:1): 1.0
+Sensitivity (Outcome:0): 0.018518518518518517
+Mean Sensitivity: 0.5092592592592593
+Precision (Outcome:1): 0.3026315789473684
+Precision (Outcome:0): 1.0
+Mean Precision: 0.6513157894736842
+
+Precision: 0.35454545454545455
+
+Clf => NaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Outcome:1 - Outcome:1: 28
+Outcome:1 - Outcome:0: 17
+Outcome:0 - Outcome:1: 5
+Outcome:0 - Outcome:0: 27
+Accuracy: 0.7142857142857143
+Sensitivity (Outcome:1): 0.8484848484848485
+Sensitivity (Outcome:0): 0.6136363636363636
+Mean Sensitivity: 0.7310606060606061
+Precision (Outcome:1): 0.6222222222222222
+Precision (Outcome:0): 0.84375
+Mean Precision: 0.7329861111111111
+
+Precision: 0.6363636363636366
+
+Clf => TANaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Outcome:1 - Outcome:1: 10
+Outcome:1 - Outcome:0: 17
+Outcome:0 - Outcome:1: 21
+Outcome:0 - Outcome:0: 29
+Accuracy: 0.5064935064935064
+Sensitivity (Outcome:1): 0.3225806451612903
+Sensitivity (Outcome:0): 0.6304347826086957
+Mean Sensitivity: 0.476507713884993
+Precision (Outcome:1): 0.37037037037037035
+Precision (Outcome:0): 0.58
+Mean Precision: 0.47518518518518515
+
+Precision: 0.5311688311688311
+Testing dataset: titanicTr.txt
+
+Clf => MaxAPosteriori with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Survived:Yes - Survived:Yes: 31
+Survived:Yes - Survived:No: 6
+Survived:No - Survived:Yes: 42
+Survived:No - Survived:No: 141
+Accuracy: 0.7818181818181819
+Sensitivity (Survived:Yes): 0.4246575342465753
+Sensitivity (Survived:No): 0.9591836734693877
+Mean Sensitivity: 0.6919206038579815
+Precision (Survived:Yes): 0.8378378378378378
+Precision (Survived:No): 0.7704918032786885
+Mean Precision: 0.8041648205582632
+
+Precision: 0.7890909090909086
+
+Clf => NaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Survived:Yes - Survived:Yes: 31
+Survived:Yes - Survived:No: 13
+Survived:No - Survived:Yes: 32
+Survived:No - Survived:No: 144
+Accuracy: 0.7954545454545454
+Sensitivity (Survived:Yes): 0.49206349206349204
+Sensitivity (Survived:No): 0.9171974522292994
+Mean Sensitivity: 0.7046304721463957
+Precision (Survived:Yes): 0.7045454545454546
+Precision (Survived:No): 0.8181818181818182
+Mean Precision: 0.7613636363636365
+
+Precision: 0.7781818181818183
+
+Clf => TANaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Survived:Yes - Survived:Yes: 29
+Survived:Yes - Survived:No: 1
+Survived:No - Survived:Yes: 46
+Survived:No - Survived:No: 144
+Accuracy: 0.7863636363636364
+Sensitivity (Survived:Yes): 0.38666666666666666
+Sensitivity (Survived:No): 0.993103448275862
+Mean Sensitivity: 0.6898850574712644
+Precision (Survived:Yes): 0.9666666666666667
+Precision (Survived:No): 0.7578947368421053
+Mean Precision: 0.862280701754386
+
+Precision: 0.7890909090909094
+Testing dataset: votesTr.txt
+
+Clf => MaxAPosteriori with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+party:republican - party:republican: 13
+party:republican - party:democrat: 26
+party:democrat - party:republican: 0
+party:democrat - party:democrat: 4
+Accuracy: 0.3953488372093023
+Sensitivity (party:republican): 1.0
+Sensitivity (party:democrat): 0.13333333333333333
+Mean Sensitivity: 0.5666666666666667
+Precision (party:republican): 0.3333333333333333
+Precision (party:democrat): 1.0
+Mean Precision: 0.6666666666666666
+
+Precision: 0.5255813953488374
+
+Clf => NaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+party:republican - party:republican: 17
+party:republican - party:democrat: 3
+party:democrat - party:republican: 3
+party:democrat - party:democrat: 20
+Accuracy: 0.8604651162790697
+Sensitivity (party:republican): 0.85
+Sensitivity (party:democrat): 0.8695652173913043
+Mean Sensitivity: 0.8597826086956522
+Precision (party:republican): 0.85
+Precision (party:democrat): 0.8695652173913043
+Mean Precision: 0.8597826086956522
+
+Precision: 0.9000000000000008
+
+Clf => TANaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+party:republican - party:republican: 14
+party:republican - party:democrat: 2
+party:democrat - party:republican: 3
+party:democrat - party:democrat: 24
+Accuracy: 0.8837209302325582
+Sensitivity (party:republican): 0.8235294117647058
+Sensitivity (party:democrat): 0.9230769230769231
+Mean Sensitivity: 0.8733031674208145
+Precision (party:republican): 0.875
+Precision (party:democrat): 0.8888888888888888
+Mean Precision: 0.8819444444444444
+
+Precision: 0.9325581395348845
+Testing dataset: cmcTr.txt
+
+Clf => MaxAPosteriori withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+contraceptive-method:long-term - contraceptive-method:long-term: 331
+contraceptive-method:long-term - contraceptive-method:none: 14
+contraceptive-method:long-term - contraceptive-method:short-term: 33
+contraceptive-method:none - contraceptive-method:long-term: 0
+contraceptive-method:none - contraceptive-method:none: 612
+contraceptive-method:none - contraceptive-method:short-term: 16
+contraceptive-method:short-term - contraceptive-method:long-term: 2
+contraceptive-method:short-term - contraceptive-method:none: 2
+contraceptive-method:short-term - contraceptive-method:short-term: 462
+Accuracy: 0.954483695652174
+Sensitivity (contraceptive-method:long-term): 0.993993993993994
+Sensitivity (contraceptive-method:none): 0.9745222929936306
+Sensitivity (contraceptive-method:short-term): 0.9041095890410958
+Mean Sensitivity: 0.9575419586762401
+Precision (contraceptive-method:long-term): 0.8756613756613757
+Precision (contraceptive-method:none): 0.9745222929936306
+Precision (contraceptive-method:short-term): 0.9914163090128756
+Mean Precision: 0.9471999925559608
+
+
+Clf => NaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+contraceptive-method:long-term - contraceptive-method:long-term: 181
+contraceptive-method:long-term - contraceptive-method:none: 126
+contraceptive-method:long-term - contraceptive-method:short-term: 146
+contraceptive-method:none - contraceptive-method:long-term: 60
+contraceptive-method:none - contraceptive-method:none: 362
+contraceptive-method:none - contraceptive-method:short-term: 117
+contraceptive-method:short-term - contraceptive-method:long-term: 92
+contraceptive-method:short-term - contraceptive-method:none: 140
+contraceptive-method:short-term - contraceptive-method:short-term: 248
+Accuracy: 0.5373641304347826
+Sensitivity (contraceptive-method:long-term): 0.5435435435435435
+Sensitivity (contraceptive-method:none): 0.5764331210191083
+Sensitivity (contraceptive-method:short-term): 0.48532289628180036
+Mean Sensitivity: 0.5350998536148174
+Precision (contraceptive-method:long-term): 0.3995584988962472
+Precision (contraceptive-method:none): 0.6716141001855288
+Precision (contraceptive-method:short-term): 0.5166666666666667
+Mean Precision: 0.5292797552494809
+
+
+Clf => TANaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+contraceptive-method:long-term - contraceptive-method:long-term: 241
+contraceptive-method:long-term - contraceptive-method:short-term: 77
+contraceptive-method:long-term - contraceptive-method:none: 70
+contraceptive-method:short-term - contraceptive-method:long-term: 54
+contraceptive-method:short-term - contraceptive-method:short-term: 367
+contraceptive-method:short-term - contraceptive-method:none: 95
+contraceptive-method:none - contraceptive-method:long-term: 38
+contraceptive-method:none - contraceptive-method:short-term: 67
+contraceptive-method:none - contraceptive-method:none: 463
+Accuracy: 0.7275815217391305
+Sensitivity (contraceptive-method:long-term): 0.7237237237237237
+Sensitivity (contraceptive-method:short-term): 0.7181996086105675
+Sensitivity (contraceptive-method:none): 0.7372611464968153
+Mean Sensitivity: 0.7263948262770356
+Precision (contraceptive-method:long-term): 0.6211340206185567
+Precision (contraceptive-method:short-term): 0.7112403100775194
+Precision (contraceptive-method:none): 0.8151408450704225
+Mean Precision: 0.7158383919221661
+
+Testing dataset: germanTr.txt
+
+Clf => MaxAPosteriori withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+class:bad - class:bad: 300
+class:bad - class:good: 0
+class:good - class:bad: 0
+class:good - class:good: 699
+Accuracy: 1.0
+Sensitivity (class:bad): 1.0
+Sensitivity (class:good): 1.0
+Mean Sensitivity: 1.0
+Precision (class:bad): 1.0
+Precision (class:good): 1.0
+Mean Precision: 1.0
+
+
+Clf => NaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+class:bad - class:bad: 267
+class:bad - class:good: 130
+class:good - class:bad: 33
+class:good - class:good: 569
+Accuracy: 0.8368368368368369
+Sensitivity (class:bad): 0.89
+Sensitivity (class:good): 0.8140200286123033
+Mean Sensitivity: 0.8520100143061516
+Precision (class:bad): 0.672544080604534
+Precision (class:good): 0.9451827242524917
+Mean Precision: 0.8088634024285128
+
+
+Clf => TANaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+class:bad - class:bad: 300
+class:bad - class:good: 0
+class:good - class:bad: 0
+class:good - class:good: 699
+Accuracy: 1.0
+Sensitivity (class:bad): 1.0
+Sensitivity (class:good): 1.0
+Mean Sensitivity: 1.0
+Precision (class:bad): 1.0
+Precision (class:good): 1.0
+Mean Precision: 1.0
+
+Testing dataset: lensesTr.txt
+
+Clf => MaxAPosteriori withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+lenses:soft - lenses:soft: 5
+lenses:soft - lenses:hard: 0
+lenses:soft - lenses:none: 0
+lenses:hard - lenses:soft: 0
+lenses:hard - lenses:hard: 4
+lenses:hard - lenses:none: 0
+lenses:none - lenses:soft: 0
+lenses:none - lenses:hard: 0
+lenses:none - lenses:none: 14
+Accuracy: 1.0
+Sensitivity (lenses:soft): 1.0
+Sensitivity (lenses:hard): 1.0
+Sensitivity (lenses:none): 1.0
+Mean Sensitivity: 1.0
+Precision (lenses:soft): 1.0
+Precision (lenses:hard): 1.0
+Precision (lenses:none): 1.0
+Mean Precision: 1.0
+
+
+Clf => NaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+lenses:soft - lenses:soft: 5
+lenses:soft - lenses:hard: 0
+lenses:soft - lenses:none: 1
+lenses:hard - lenses:soft: 0
+lenses:hard - lenses:hard: 4
+lenses:hard - lenses:none: 0
+lenses:none - lenses:soft: 0
+lenses:none - lenses:hard: 0
+lenses:none - lenses:none: 13
+Accuracy: 0.9565217391304348
+Sensitivity (lenses:soft): 1.0
+Sensitivity (lenses:hard): 1.0
+Sensitivity (lenses:none): 0.9285714285714286
+Mean Sensitivity: 0.9761904761904763
+Precision (lenses:soft): 0.8333333333333334
+Precision (lenses:hard): 1.0
+Precision (lenses:none): 1.0
+Mean Precision: 0.9444444444444445
+
+
+Clf => TANaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+lenses:soft - lenses:soft: 4
+lenses:soft - lenses:hard: 0
+lenses:soft - lenses:none: 0
+lenses:hard - lenses:soft: 0
+lenses:hard - lenses:hard: 2
+lenses:hard - lenses:none: 0
+lenses:none - lenses:soft: 1
+lenses:none - lenses:hard: 2
+lenses:none - lenses:none: 14
+Accuracy: 0.8695652173913043
+Sensitivity (lenses:soft): 0.8
+Sensitivity (lenses:hard): 0.5
+Sensitivity (lenses:none): 1.0
+Mean Sensitivity: 0.7666666666666666
+Precision (lenses:soft): 1.0
+Precision (lenses:hard): 1.0
+Precision (lenses:none): 0.8235294117647058
+Mean Precision: 0.9411764705882352
+
+Testing dataset: mushroomTr.txt
+
+Clf => MaxAPosteriori withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+toxicity:edible - toxicity:edible: 4208
+toxicity:edible - toxicity:poisonous: 0
+toxicity:poisonous - toxicity:edible: 0
+toxicity:poisonous - toxicity:poisonous: 3915
+Accuracy: 1.0
+Sensitivity (toxicity:edible): 1.0
+Sensitivity (toxicity:poisonous): 1.0
+Mean Sensitivity: 1.0
+Precision (toxicity:edible): 1.0
+Precision (toxicity:poisonous): 1.0
+Mean Precision: 1.0
+
+
+Clf => NaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+toxicity:edible - toxicity:edible: 4187
+toxicity:edible - toxicity:poisonous: 333
+toxicity:poisonous - toxicity:edible: 21
+toxicity:poisonous - toxicity:poisonous: 3582
+Accuracy: 0.956420041856457
+Sensitivity (toxicity:edible): 0.9950095057034221
+Sensitivity (toxicity:poisonous): 0.9149425287356322
+Mean Sensitivity: 0.9549760172195272
+Precision (toxicity:edible): 0.9263274336283186
+Precision (toxicity:poisonous): 0.9941715237302248
+Mean Precision: 0.9602494786792717
+
+
+Clf => TANaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+toxicity:edible - toxicity:edible: 4208
+toxicity:edible - toxicity:poisonous: 0
+toxicity:poisonous - toxicity:edible: 0
+toxicity:poisonous - toxicity:poisonous: 3915
+Accuracy: 1.0
+Sensitivity (toxicity:edible): 1.0
+Sensitivity (toxicity:poisonous): 1.0
+Mean Sensitivity: 1.0
+Precision (toxicity:edible): 1.0
+Precision (toxicity:poisonous): 1.0
+Mean Precision: 1.0
+
+Testing dataset: pimaTr.txt
+
+Clf => MaxAPosteriori withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Outcome:1 - Outcome:1: 272
+Outcome:1 - Outcome:0: 0
+Outcome:0 - Outcome:1: 0
+Outcome:0 - Outcome:0: 502
+Accuracy: 1.0
+Sensitivity (Outcome:1): 1.0
+Sensitivity (Outcome:0): 1.0
+Mean Sensitivity: 1.0
+Precision (Outcome:1): 1.0
+Precision (Outcome:0): 1.0
+Mean Precision: 1.0
+
+
+Clf => NaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Outcome:1 - Outcome:1: 264
+Outcome:1 - Outcome:0: 99
+Outcome:0 - Outcome:1: 8
+Outcome:0 - Outcome:0: 403
+Accuracy: 0.8617571059431525
+Sensitivity (Outcome:1): 0.9705882352941176
+Sensitivity (Outcome:0): 0.8027888446215139
+Mean Sensitivity: 0.8866885399578157
+Precision (Outcome:1): 0.7272727272727273
+Precision (Outcome:0): 0.9805352798053528
+Mean Precision: 0.8539040035390401
+
+
+Clf => TANaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Outcome:1 - Outcome:1: 271
+Outcome:1 - Outcome:0: 37
+Outcome:0 - Outcome:1: 1
+Outcome:0 - Outcome:0: 465
+Accuracy: 0.9509043927648578
+Sensitivity (Outcome:1): 0.9963235294117647
+Sensitivity (Outcome:0): 0.9262948207171314
+Mean Sensitivity: 0.961309175064448
+Precision (Outcome:1): 0.8798701298701299
+Precision (Outcome:0): 0.9978540772532188
+Mean Precision: 0.9388621035616744
+
+Testing dataset: titanicTr.txt
+
+Clf => MaxAPosteriori withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Survived:Yes - Survived:Yes: 270
+Survived:Yes - Survived:No: 20
+Survived:No - Survived:Yes: 441
+Survived:No - Survived:No: 1470
+Accuracy: 0.7905497501135847
+Sensitivity (Survived:Yes): 0.379746835443038
+Sensitivity (Survived:No): 0.9865771812080537
+Mean Sensitivity: 0.6831620083255459
+Precision (Survived:Yes): 0.9310344827586207
+Precision (Survived:No): 0.7692307692307693
+Mean Precision: 0.850132625994695
+
+
+Clf => NaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Survived:Yes - Survived:Yes: 349
+Survived:Yes - Survived:No: 126
+Survived:No - Survived:Yes: 362
+Survived:No - Survived:No: 1364
+Accuracy: 0.7782825988187188
+Sensitivity (Survived:Yes): 0.4908579465541491
+Sensitivity (Survived:No): 0.9154362416107382
+Mean Sensitivity: 0.7031470940824437
+Precision (Survived:Yes): 0.7347368421052631
+Precision (Survived:No): 0.7902665121668598
+Mean Precision: 0.7625016771360615
+
+
+Clf => TANaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+Survived:Yes - Survived:Yes: 284
+Survived:Yes - Survived:No: 37
+Survived:No - Survived:Yes: 427
+Survived:No - Survived:No: 1453
+Accuracy: 0.7891867333030441
+Sensitivity (Survived:Yes): 0.39943741209563993
+Sensitivity (Survived:No): 0.9751677852348993
+Mean Sensitivity: 0.6873025986652697
+Precision (Survived:Yes): 0.8847352024922118
+Precision (Survived:No): 0.7728723404255319
+Mean Precision: 0.8288037714588719
+
+Testing dataset: votesTr.txt
+
+Clf => MaxAPosteriori withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+party:republican - party:republican: 167
+party:republican - party:democrat: 0
+party:democrat - party:republican: 0
+party:democrat - party:democrat: 267
+Accuracy: 1.0
+Sensitivity (party:republican): 1.0
+Sensitivity (party:democrat): 1.0
+Mean Sensitivity: 1.0
+Precision (party:republican): 1.0
+Precision (party:democrat): 1.0
+Mean Precision: 1.0
+
+
+Clf => NaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+party:republican - party:republican: 154
+party:republican - party:democrat: 29
+party:democrat - party:republican: 13
+party:democrat - party:democrat: 238
+Accuracy: 0.9032258064516129
+Sensitivity (party:republican): 0.9221556886227545
+Sensitivity (party:democrat): 0.8913857677902621
+Mean Sensitivity: 0.9067707282065083
+Precision (party:republican): 0.8415300546448088
+Precision (party:democrat): 0.9482071713147411
+Mean Precision: 0.8948686129797749
+
+
+Clf => TANaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+party:republican - party:republican: 159
+party:republican - party:democrat: 14
+party:democrat - party:republican: 8
+party:democrat - party:democrat: 253
+Accuracy: 0.9493087557603687
+Sensitivity (party:republican): 0.9520958083832335
+Sensitivity (party:democrat): 0.947565543071161
+Mean Sensitivity: 0.9498306757271973
+Precision (party:republican): 0.9190751445086706
+Precision (party:democrat): 0.9693486590038314
+Mean Precision: 0.9442119017562509
+
+Testing dataset: weatherNominalTr.txt
+
+Clf => MaxAPosteriori withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+play:yes - play:yes: 9
+play:yes - play:no: 0
+play:no - play:yes: 0
+play:no - play:no: 4
+Accuracy: 1.0
+Sensitivity (play:yes): 1.0
+Sensitivity (play:no): 1.0
+Mean Sensitivity: 1.0
+Precision (play:yes): 1.0
+Precision (play:no): 1.0
+Mean Precision: 1.0
+
+
+Clf => NaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+play:yes - play:yes: 9
+play:yes - play:no: 2
+play:no - play:yes: 0
+play:no - play:no: 2
+Accuracy: 0.8461538461538461
+Sensitivity (play:yes): 1.0
+Sensitivity (play:no): 0.5
+Mean Sensitivity: 0.75
+Precision (play:yes): 0.8181818181818182
+Precision (play:no): 1.0
+Mean Precision: 0.9090909090909092
+
+
+Clf => TANaiveBayes withoth cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+play:yes - play:yes: 9
+play:yes - play:no: 1
+play:no - play:yes: 0
+play:no - play:no: 3
+Accuracy: 0.9230769230769231
+Sensitivity (play:yes): 1.0
+Sensitivity (play:no): 0.75
+Mean Sensitivity: 0.875
+Precision (play:yes): 0.9
+Precision (play:no): 1.0
+Mean Precision: 0.95
+

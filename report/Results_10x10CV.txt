@@ -1,0 +1,163 @@
+
+
+* Testing dataset: cmcTr.txt
+
+- Clf => MaxAPosteriori with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+contraceptive-method:long-term - contraceptive-method:long-term: 22
+contraceptive-method:long-term - contraceptive-method:none: 67
+contraceptive-method:long-term - contraceptive-method:short-term: 48
+contraceptive-method:none - contraceptive-method:long-term: 2
+contraceptive-method:none - contraceptive-method:none: 2
+contraceptive-method:none - contraceptive-method:short-term: 3
+contraceptive-method:short-term - contraceptive-method:long-term: 3
+contraceptive-method:short-term - contraceptive-method:none: 0
+contraceptive-method:short-term - contraceptive-method:short-term: 0
+Accuracy: 0.16326530612244897
+Sensitivity (contraceptive-method:long-term): 0.8148148148148148
+Sensitivity (contraceptive-method:none): 0.028985507246376812
+Sensitivity (contraceptive-method:short-term): 0.0
+Mean Sensitivity: 0.2812667740203972
+Precision (contraceptive-method:long-term): 0.16058394160583941
+Precision (contraceptive-method:none): 0.2857142857142857
+Precision (contraceptive-method:short-term): 0.0
+Mean Precision: 0.14876607577337506
+
+Precision: 0.2353741496598639
+
+- Clf => NaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+contraceptive-method:long-term - contraceptive-method:long-term: 13
+contraceptive-method:long-term - contraceptive-method:short-term: 15
+contraceptive-method:long-term - contraceptive-method:none: 15
+contraceptive-method:short-term - contraceptive-method:long-term: 12
+contraceptive-method:short-term - contraceptive-method:short-term: 13
+contraceptive-method:short-term - contraceptive-method:none: 12
+contraceptive-method:none - contraceptive-method:long-term: 8
+contraceptive-method:none - contraceptive-method:short-term: 17
+contraceptive-method:none - contraceptive-method:none: 42
+Accuracy: 0.46258503401360546
+Sensitivity (contraceptive-method:long-term): 0.3939393939393939
+Sensitivity (contraceptive-method:short-term): 0.28888888888888886
+Sensitivity (contraceptive-method:none): 0.6086956521739131
+Mean Sensitivity: 0.4305079783340653
+Precision (contraceptive-method:long-term): 0.3023255813953488
+Precision (contraceptive-method:short-term): 0.35135135135135137
+Precision (contraceptive-method:none): 0.6268656716417911
+Mean Precision: 0.4268475347961638
+
+Precision: 0.5013605442176873
+
+- Clf => TANaiveBayes with 10-fold cross-validation.
+
+CONFUSION MATRIX
+Predicted 	 Truth 
+contraceptive-method:long-term - contraceptive-method:long-term: 15
+contraceptive-method:long-term - contraceptive-method:none: 11
+contraceptive-method:long-term - contraceptive-method:short-term: 15
+contraceptive-method:none - contraceptive-method:long-term: 8
+contraceptive-method:none - contraceptive-method:none: 30
+contraceptive-method:none - contraceptive-method:short-term: 17
+contraceptive-method:short-term - contraceptive-method:long-term: 7
+contraceptive-method:short-term - contraceptive-method:none: 16
+contraceptive-method:short-term - contraceptive-method:short-term: 28
+Accuracy: 0.4965986394557823
+Sensitivity (contraceptive-method:long-term): 0.5
+Sensitivity (contraceptive-method:none): 0.5263157894736842
+Sensitivity (contraceptive-method:short-term): 0.4666666666666667
+Mean Sensitivity: 0.4976608187134503
+Precision (contraceptive-method:long-term): 0.36585365853658536
+Precision (contraceptive-method:none): 0.5454545454545454
+Precision (contraceptive-method:short-term): 0.5490196078431373
+Mean Precision: 0.4867759372780894
+
+Precision: 0.48367346938775474
+
+
+* Testing dataset: germanTr.txt
+
+- Clf => MaxAPosteriori with 10-fold cross-validation.
+Precision: 0.298989898989899
+
+- Clf => NaiveBayes with 10-fold cross-validation.
+Precision: 0.7030303030303028
+
+- Clf => TANaiveBayes with 10-fold cross-validation.
+Precision: 0.6494949494949493
+
+
+* Testing dataset: lensesTr.txt
+
+- Clf => MaxAPosteriori with 10-fold cross-validation.
+Precision: 0.2
+
+- Clf => NaiveBayes with 10-fold cross-validation.
+Precision: 0.6
+
+- Clf => TANaiveBayes with 10-fold cross-validation.
+Precision: 0.6
+
+
+* Testing dataset: mushroomTr.txt
+
+- Clf => MaxAPosteriori with 10-fold cross-validation.
+Precision: 0.5181034482758617
+
+- Clf => NaiveBayes with 10-fold cross-validation.
+Precision: 0.9550492610837433
+
+- Clf => TANaiveBayes with 10-fold cross-validation.
+Precision: 0.9993842364532017
+
+
+* Testing dataset: pimaTr.txt
+
+- Clf => MaxAPosteriori with 10-fold cross-validation.
+Precision: 0.357142857142857
+
+- Clf => NaiveBayes with 10-fold cross-validation.
+Precision: 0.6376623376623376
+
+- Clf => TANaiveBayes with 10-fold cross-validation.
+Precision: 0.54025974025974
+
+
+* Testing dataset: titanicTr.txt
+
+- Clf => MaxAPosteriori with 10-fold cross-validation.
+Precision: 0.7890909090909087
+
+- Clf => NaiveBayes with 10-fold cross-validation.
+Precision: 0.7804545454545452
+
+- Clf => TANaiveBayes with 10-fold cross-validation.
+Precision: 0.7890909090909087
+
+
+* Testing dataset: votesTr.txt
+
+- Clf => MaxAPosteriori with 10-fold cross-validation.
+Precision: 0.5255813953488375
+
+- Clf => NaiveBayes with 10-fold cross-validation.
+Precision: 0.9000000000000011
+
+- Clf => TANaiveBayes with 10-fold cross-validation.
+Precision: 0.9325581395348845
+
+
+* Testing dataset: weatherNominalTr.txt
+
+- Clf => MaxAPosteriori with 10-fold cross-validation.
+Precision: 0.6
+
+- Clf => NaiveBayes with 10-fold cross-validation.
+
+Precision: 0.4
+
+- Clf => TANaiveBayes with 10-fold cross-validation.
+Precision: 0.6
