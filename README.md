@@ -6,6 +6,7 @@ This repository contains the Scala implementation of 3 classifiers:
 * Naive Bayes
 * Tree Augmented Naive Bayes
 
+Report folder contains a detailed explanation of all the classes, the implemented methods as well as some performance tests of the different classifiers. Refer to that for more information.
 
 ## Maximum a posteriori
 
@@ -33,3 +34,7 @@ It is an strong assumption, but works quite well even in scenarios were it does 
 ## Tree Augmented Naive Bayes
 
 Tree Augmented Naive Bayes (TANaiveBayes or TANB) method tries to soften the independence assumption between variables of Naive Bayes with a tree-like dependency structure.
+
+For more information check papers under ./papers folder or read the report.
+
+If you would like to contribute, have similar and interestings projects, find any error or have some question feel free to write.
